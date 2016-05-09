@@ -1,0 +1,84 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Raleway:400,300,600";
+
+html, body{
+	font-family: "Open Sans";
+	font-size: 11pt;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 50px;
+  font-size: 175%;
+  text-align: center;
+}
+
+.row {
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container {
+	background: #ffe6b3;
+	border: 1px solid black;
+  	margin: 0 1% 2%;
+  }
+
+.header {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	float: right;
+	font-size: 125%;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+}
+
+.first .header {
+	background: #ffcc02;
+}
+
+.second .header {
+	background: #ff471a;
+}
+
+.third .header {
+	background: #b3b3ff;
+}
+
+p {
+	clear: both;
+	margin: 5px;
+	padding: 5px;
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 31.3%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container.first, .container.second {
+		width: 48%;
+		float: left;
+	}
+
+	.container.third {
+		clear: both;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
