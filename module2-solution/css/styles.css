@@ -18,26 +18,29 @@ h1 {
 }
 
 .row {
-	position: relative;
-	width: 100%;
-	max-width: 1000px;
-	margin: 0 auto;
+	width: auto;
+	margin: 0 1%;
 }
 
 .container {
 	background: #ffe6b3;
 	border: 1px solid black;
   	margin: 0 1% 2%;
+  	position: relative;
+  	padding-top: 27px;
   }
 
 .header {
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
-	float: right;
 	font-size: 125%;
 	text-align: center;
 	width: 100px;
 	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 .first .header {
