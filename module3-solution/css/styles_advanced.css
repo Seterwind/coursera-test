@@ -1,0 +1,82 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Raleway:400,300,600";
+html,
+body {
+    font-size: 1.1em;
+    background-color: #fcf4bf;
+    font-family: "Open Sans";
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 2px 5px #666;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    height: 60px;
+}
+
+.navbar-brand h1 {
+    color: #557c3e;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#nav-list a {
+    color: #557c3e;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #fcf4bf;
+}
+
+#nav-list a {
+    font-size: 1.2em;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #fcf4bf;
+}
+
+.container-fluid {
+    margin: 0 15px;
+}
+
+.text-box {
+    background-color: #fcea75;
+    border: 1px solid black;
+    margin-bottom: 25px;
+    padding: 27px 20px 0;
+    text-align: justify;
+}
+
+h1 {
+    margin: 17px 0;
+    color: #557c3e;
+    font-size: 150%;
+}
+
+h3 {
+    margin-top: 0px;
+    color: #557c3e;
+    font-size: 120%;
+}
+
+@media (min-width: 992px) {
+    #nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #nav-list {
+        display: none;
+    }
+}
